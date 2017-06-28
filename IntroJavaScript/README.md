@@ -79,4 +79,4 @@ is the letter to count.
 
 * The output should be returned as a result of your function.
 
-![alt text](https://www.dropbox.com/s/6mbrt25qdrku7i2/figure.png?dl=0 "Logo Title Text 1")
+![alt text](https://photos-2.dropbox.com/t/2/AADdxy7ttFAuMsiEXQ4ilr3OWN4-tnzvTUgcHsGvzUzpDQ/12/141812793/png/32x32/1/_/1/2/figure.png/EKzIzGwY3DMgBygH/gq1NsEhA57HWuKkBv4p966RfvAVcpFE5TMzfxw6Xz9w?size=2048x1536&size_mode=3 "Logo Title Text 1")
