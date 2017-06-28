@@ -79,4 +79,5 @@ is the letter to count.
 
 * The output should be returned as a result of your function.
 
- [This link](https://drive.google.com/file/d/0BwP11uhQBu3nZDZXVDJQT2NJcGM/view?usp=sharing)
+ [Image](https://drive.google.com/file/d/0BwP11uhQBu3nZDZXVDJQT2NJcGM/view?usp=sharing)
+ 
