@@ -70,3 +70,13 @@ is the letter to count.
 | Input      | Output        |
 | -----------|:-------------:|
 | '11'   |'1234567891011'|
+
+#### 6. Figure Area
+
+* Write a JS function that calculates the area of the figure on the right by given values for w, h, W and H. The lower right corner is always common for the two rectangles.
+
+* The input comes as four number parameters w, h, W and H.
+
+* The output should be returned as a result of your function.
+
+![alt text](https://www.dropbox.com/s/6mbrt25qdrku7i2/figure.png?dl=0"Logo Title Text 1")
