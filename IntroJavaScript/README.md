@@ -43,7 +43,7 @@ is the letter to count.
 | -----------|:-------------:|
 | 'hello','l'    | 2 |
 
-4. Filter By Age
+#### 4. Filter By Age
 
 * Write a JS function that stores the name and age of two persons in objects and then filters them by minimum age.
 
