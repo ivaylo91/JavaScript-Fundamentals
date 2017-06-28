@@ -79,4 +79,4 @@ is the letter to count.
 
 * The output should be returned as a result of your function.
 
-![alt text](https://drive.google.com/open?id=0BwP11uhQBu3nZDZXVDJQT2NJcGM "Logo Title Text 1")
+[<img src="https://drive.google.com/file/d/0BwP11uhQBu3nZDZXVDJQT2NJcGM/view?usp=sharing">]
