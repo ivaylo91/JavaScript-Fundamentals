@@ -81,3 +81,8 @@ is the letter to count.
 
  [Image](https://drive.google.com/file/d/0BwP11uhQBu3nZDZXVDJQT2NJcGM/view?usp=sharing)
  
+ #### Example 
+ 
+ | Input      | Output        |
+ | -----------|:-------------:|
+ | 2, 4, 5, 3  |17|
