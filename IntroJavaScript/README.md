@@ -42,3 +42,17 @@ is the letter to count.
 | Input      | Output        |
 | -----------|:-------------:|
 | 'hello','l'    | 2 |
+
+4. Filter By Age
+
+* Write a JS function that stores the name and age of two persons in objects and then filters them by minimum age.
+
+* The <b>input</b> comes as five arguments. The first element is the minimum age. The second and third elements are the name and age of the first person and the fourth and fifth elements – the name and age of the second person. The three age parameters will be numbers, the names will be strings.
+
+* The <b>output</b> should be printed to the console.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 12, 'Ivan', 15, 'Asen', 9   |{ name: 'Ivan', age: 15 }|
