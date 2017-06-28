@@ -79,4 +79,4 @@ is the letter to count.
 
 * The output should be returned as a result of your function.
 
-[<img src="https://drive.google.com/file/d/0BwP11uhQBu3nZDZXVDJQT2NJcGM/view?usp=sharing">]
+ [This link](https://drive.google.com/file/d/0BwP11uhQBu3nZDZXVDJQT2NJcGM/view?usp=sharing)
