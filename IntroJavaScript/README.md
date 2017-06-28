@@ -1,4 +1,4 @@
-### JavaScript Syntax Tasks
+### JavaScript Intro Tasks
 
 #### 1. Sum 3 Numbers
 
@@ -27,3 +27,18 @@
 | Input      | Output        |
 | -----------|:-------------:|
 | [1.20,2.60,3.50] | <b>sum =<b> 7.3<br> <b>VAT=</b>1.46<br> <b>total=</b>8.76|
+
+
+#### 3. Letter Occurrences in String
+
+* Write JS function that counts how many times a specific letter occurs in a given string.
+* The <b>input</b> comes two string arguments. The first element is the string to check and the second element
+is the letter to count.
+
+* The <b>output</b> should be be returned as a result of your function.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 'hello','l'    | 2 |
