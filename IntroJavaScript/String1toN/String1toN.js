@@ -5,6 +5,7 @@
 const print1toN = function ([n]) {
 
     let str = '';
+
     for (let i = 1; i <= n; i++) {
 
         str += i;
