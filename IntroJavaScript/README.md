@@ -56,3 +56,17 @@ is the letter to count.
 | Input      | Output        |
 | -----------|:-------------:|
 | 12, 'Ivan', 15, 'Asen', 9   |{ name: 'Ivan', age: 15 }|
+
+#### 5. String of Numbers 1…N
+
+* Write a JS function that read a number n as input and prints all numbers from 1 to n, concatenated as a single string.
+
+* The <b>input</b> comes as one string element that needs to be parsed as a number.
+
+* The <b>output</b> should be returned as a result of your function.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| '11'   |'1234567891011'|
