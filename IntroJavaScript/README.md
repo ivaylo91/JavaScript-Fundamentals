@@ -95,6 +95,7 @@ is the letter to count.
  
  * The <b>output</b> should be returned as a result of your function.
  
+ #### Example
  | Input      | Output        |
  | -----------|:-------------:|
  | 2016, 9, 30 |2016-10-1|
@@ -106,7 +107,13 @@ is the letter to count.
 * The <b>input</b> comes as four number elements in the format x1, y1, x2, y2. Each pair of elements are the coordinates of a point in 2D space.
 
 * The <b>output</b> should be returned as a result of your function.
-  
+
+#### Example
+
 | Input      | Output        |
 | -----------|:-------------:|
 | 2, 4, 5, 0 |5|  
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 2.34, 15.66, -13.55, -2.9985 |24.50778901186315|  
