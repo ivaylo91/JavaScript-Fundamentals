@@ -94,3 +94,8 @@ is the letter to count.
  * The <b>input</b> comes as three number parameters. The first element is the year, the second is the month and the third is the day.
  
  * The <b>output</b> should be returned as a result of your function.
+ 
+ | Input      | Output        |
+  | -----------|:-------------:|
+  | 2016, 9, 30 |2016-10-1|
+  
