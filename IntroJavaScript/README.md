@@ -86,3 +86,11 @@ is the letter to count.
  | Input      | Output        |
  | -----------|:-------------:|
  | 2, 4, 5, 3  |17|
+ 
+ #### 7. Next Day
+ 
+ * Write a JS function that calculates the date of the next day by given year, month and day.
+ 
+ * The <b>input</b> comes as three number parameters. The first element is the year, the second is the month and the third is the day.
+ 
+ * The <b>output</b> should be returned as a result of your function.
