@@ -96,6 +96,17 @@ is the letter to count.
  * The <b>output</b> should be returned as a result of your function.
  
  | Input      | Output        |
-  | -----------|:-------------:|
-  | 2016, 9, 30 |2016-10-1|
+ | -----------|:-------------:|
+ | 2016, 9, 30 |2016-10-1|
   
+#### 8. Distance between Points
+
+* Write a JS function that calculates the distance between two points by given x and y coordinates. Use objects to store the two points.
+
+* The <b>input</b> comes as four number elements in the format x1, y1, x2, y2. Each pair of elements are the coordinates of a point in 2D space.
+
+* The <b>output</b> should be returned as a result of your function.
+  
+| Input      | Output        |
+| -----------|:-------------:|
+| 2, 4, 5, 0 |5|  
