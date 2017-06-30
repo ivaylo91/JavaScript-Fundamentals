@@ -39,3 +39,25 @@
 | Input      | Output        |
 | -----------|:-------------:|
 | 5 <br> 10 |1|  
+
+#### 3. Leap Year
+
+* Write a JS function to check whether a year is leap. Leap years are either divisible by 4 but not by 100 or are divisible by 400.
+
+* The <b>input</b> comes as a single number argument.
+
+* The <b>output</b> should be printed to the console. Print yes if the year is leap and no otherwise.
+
+#### Examples
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 1999|no|  
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 2000|yes|  
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 1900|no|  
