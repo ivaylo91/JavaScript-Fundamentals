@@ -61,3 +61,17 @@
 | Input      | Output        |
 | -----------|:-------------:|
 | 1900|no|  
+
+#### 4. Circle Area
+
+* Write a JS function that calculates circle area by given radius. Print the area as it is calculated and then print it rounded to two decimal places.
+
+* The input comes as a single number argument.
+
+* The output should be printed to the console on a new line for each result.
+
+#### Examples
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 5 | 78.53981633974483<br>78.54| 
