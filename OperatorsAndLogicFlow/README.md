@@ -75,3 +75,17 @@
  Input      | Output        |
 | -----------|:-------------:|
 | 5 | 78.53981633974483<br>78.54| 
+
+#### 5. Triangle Area
+
+* Write a JS function that calculates a triangle’s area by its 3 sides.
+
+* The <b>input</b> comes as three number arguments, representing one side of a triangle.
+
+* The <b>output</b> should be printed to the console.
+
+#### Examples
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 2<br>3.5<br> 4 | 3.4994419198| 
