@@ -89,3 +89,21 @@
  Input      | Output        |
 | -----------|:-------------:|
 | 2<br>3.5<br> 4 | 3.4994419198| 
+
+#### 6. Cone
+
+* Write a JS function to calculate a cone’s volume and surface area by given height and radius at the base.
+
+* The <b>input</b> comes as two number arguments. The first element is the cone’s radius and the second is its height.
+
+* The <b>output</b> should be printed to the console on a new line for every result.
+
+#### Examples
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 3<br>5<br> | volume = 47.1239<br>area = 83.2298| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 3.3<br>7.8<br> | volume =122.016 <br>area = 88.9511|
