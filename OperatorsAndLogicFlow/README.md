@@ -107,3 +107,48 @@
  Input      | Output        |
 | -----------|:-------------:|
 | 3.3<br>7.8<br> | volume =122.016 <br>area = 88.9511|
+
+#### 7. Even Or Odd 
+* Write a JS function to check if a number is odd or even or invalid (fractions are neither odd nor even).
+
+* The <b>input</b> comes as a single number argument.
+
+* The <b>output</b> should be printed to the console. Print odd for odd numbers, even for even number and invalid for numbers that contain decimal fractions.
+
+#### Examples
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 5 | odd| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 8 | even| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 1.5 | invalid| 
+
+#### 8. Fruit Or  Vegetables
+* Write a JS function to print "fruit", "vegetable" or "unknown" depending on the input string.
+  * <b>Fruits</b> are: banana, apple, kiwi, cherry, lemon, grapes, peach
+  * <b>Vegetable</b> are: tomato, cucumber, pepper, onion, garlic, parsley
+  * All others are unknown
+
+* The <b>input</b> comes as a single string argument, the name of the fruit.
+
+* The <b>output</b> should be printed to the console.
+
+#### Examples
+
+ Input      | Output        |
+| -----------|:-------------:|
+| banana | fruit| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| cucumber| vegetable| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| pizza | unknown| 
