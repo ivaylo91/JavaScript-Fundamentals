@@ -3,7 +3,8 @@
  */
 
 const checkEvenOrOdd = function (input) {
-    let  number = Number(input)
+    let  number = Number(input); // parse input to Number
+
     if(number % 2 === 0){
         return 'even';
     } else if( number % 2 === Math.round(number%2)){
