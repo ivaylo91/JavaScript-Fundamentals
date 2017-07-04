@@ -5,7 +5,9 @@
 const drawChessBoard = function (n) {
 
     let html = '<div class="chessboard">\n';
+
     let color = 'black';
+
     for (let i = 0; i < n; i++) {
         html += '  <div>\n';
         for (let j = 0; j < n; j++) {
@@ -20,7 +22,7 @@ const drawChessBoard = function (n) {
                 }
                 else color = 'black';
             }
-            html += `    <span class="${color}"></span>\n`;
+            html += `<span class="${color}"></span>\n`;
         }
         html += '  </div>\n';
     }
