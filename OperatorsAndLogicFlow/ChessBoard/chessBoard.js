@@ -24,6 +24,7 @@ const drawChessBoard = function (n) {
         board += '</div>\n';
     }
     board += '</div>';
+
     return board;
 };
 console.log(drawChessBoard(3));
