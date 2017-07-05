@@ -19,6 +19,6 @@ const checkIsPrime = function (n) {
     return true;
 };
 
-console.log(checkIsPrime(7));
-console.log(checkIsPrime(8));
-console.log(checkIsPrime(81));
+console.log(checkIsPrime(7)); //true
+console.log(checkIsPrime(8)); //false
+console.log(checkIsPrime(81)); //false
