@@ -1,4 +1,4 @@
-### JavaScript Intro Tasks
+## JavaScript Intro Tasks
 
 #### 1. Sum 3 Numbers
 
