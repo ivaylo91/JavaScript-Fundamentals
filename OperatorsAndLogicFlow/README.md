@@ -153,12 +153,39 @@
 | -----------|:-------------:|
 | pizza | unknown| 
 
-#### 9. Chess Board
+#### 9. Colorful Number
+* Write a JS function to print the numbers from 1 to n. Return a string holding HTML list with the odd lines in blue and even lines in green. See the example for more information.
+
+* The input comes as a single number argument n.
+
+* The output should be returned as a result of your function in the form of a string.
+
+#### Examples 
+
+ Input      | Output        |
+| -----------|:-------------:|
+|10  | | 
+
+```html 
+   <ul>
+     <li><span style='color:green'>1</span></li>
+     <li><span style='color:blue'>2</span></li>
+     <li><span style='color:green'>3</span></li>
+     <li><span style='color:blue'>4</span></li>
+     <li><span style='color:green'>5</span></li>
+     <li><span style='color:blue'>6</span></li>
+     <li><span style='color:green'>7</span></li>
+     <li><span style='color:blue'>8</span></li>
+     <li><span style='color:green'>9</span></li>
+     <li><span style='color:blue'>10</span></li>
+   </ul>
+```
+#### 10. Chess Board
 * Write a JS function to print a chessboard of size n X n. See the example for more information.
   
-* The input comes as a single number argument n.
+* The <b>input</b> comes as a single number argument n.
  
-* The output should be returned as a result of your function in the form of a string.
+* The <b>output</b> should be returned as a result of your function in the form of a string.
 
 #### Examples 
 
@@ -185,3 +212,32 @@
      </div>
    </div>
 ```
+
+#### 11. Binary Logarithm
+* Write a JS function that prints the binary logarithm (log2 x) for each number in the input.
+
+* The <b>input</b> comes as an array of number elements.
+
+* The <b>output</b> should be printed to the console, on a new line for each number.
+
+#### 12. Prime Number Checker
+
+* Write a JS function to check if a number is prime (only wholly divisible by itself and one).
+
+* The input comes as a single number argument.
+
+* The output should be the return value of your function. Return true for prime number and false otherwise.
+
+#### Examples 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 7 | true| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 8| false| 
+
+ Input      | Output        |
+| -----------|:-------------:|
+| 81 | false| 
