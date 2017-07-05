@@ -152,3 +152,36 @@
  Input      | Output        |
 | -----------|:-------------:|
 | pizza | unknown| 
+
+#### 9. Chess Board
+* Write a JS function to print a chessboard of size n X n. See the example for more information.
+  
+* The input comes as a single number argument n.
+ 
+* The output should be returned as a result of your function in the form of a string.
+
+#### Examples 
+
+ Input      | Output        |
+| -----------|:-------------:|
+|3  | | 
+
+```html 
+   <div class="chessboard">
+     <div>
+       <span class="black"></span>
+       <span class="white"></span>
+       <span class="black"></span>
+     </div>
+     <div>
+       <span class="white"></span>
+       <span class="black"></span>
+       <span class="white"></span>
+     </div>
+     <div>
+       <span class="black"></span>
+       <span class="white"></span>
+       <span class="black"></span>
+     </div>
+   </div>
+```
