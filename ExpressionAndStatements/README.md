@@ -61,3 +61,18 @@
 | -----------|:-------------:|
 | [1, 1, 0, 5, 4, 0] | 5 | 
 | [3.5, 0, 1, 0, 2, -1] | 4.5|
+
+#### 5. Grads to Degrees
+
+* Land surveyors use grads (also known as gon, 400 grads in a full turn) in their documents. Grads are rather unwieldy though, so you need to write a JS function that converts from grads to degrees. In addition, your program needs to constrain the results within the range , so if you arrive at a value like -15°, it needs to be converted to 345° and 420° becomes 60°.
+
+* The <b>input</b> comes as single number.
+
+* The <b>output</b> should be printed to the console.
+
+#### Examples
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 100 | 90 | 
+| 400 | 0|
