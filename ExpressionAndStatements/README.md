@@ -94,3 +94,17 @@ You can use the remainder (modulo) operator to get a value that is cyclic – it
 | Input      | Output        |
 | -----------|:-------------:|
 | [1500, 4.3, 4, 6] | 1938.84 | 
+
+#### 7. Rounding
+* Write a JS function that rounds numbers to specific precision.
+
+* The <b>input</b> comes as an array of two numbers. The first value is the number to be rounded and the second is the precision (significant decimal places). If a precision is passed, that is more than 15 it should automatically be reduced to 15.
+
+* The <b>output</b> should be printed to the console. Do not print insignificant decimals.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [3.1415926535897932384626433832795, 2]| 3.14 | 
+
