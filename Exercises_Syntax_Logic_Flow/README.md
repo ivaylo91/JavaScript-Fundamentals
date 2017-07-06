@@ -39,8 +39,25 @@
 
 * The <b>output</b> should be printed to the console. Calculate the distance in met.
 
+##### Examples 
+
 | Input      | Output        |
 | -----------|:-------------:|
 | [0, 60, 3600] | 60000 | 
 | [11, 10, 120] | 33.33333333333337|
 |  [5, -5, 40] | 111.11111111111111|
+
+#### 4. Distance in 3D
+
+* Write a JS function that calculates the distance between the two points in 3D by given coordinates.
+
+* The <b>input</b> comes as an array of numbers. The first three elements are the x, y and z coordinates for the first point and the second set of arguments are the coordinates of the other point.
+
+* The <b> output</b> should be printed to the console.
+
+##### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [1, 1, 0, 5, 4, 0] | 5 | 
+| [3.5, 0, 1, 0, 2, -1] | 4.5|
