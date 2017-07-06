@@ -80,3 +80,17 @@
 #### Hints 
 
 You can use the remainder (modulo) operator to get a value that is cyclic – it returns the same result for all input values with offset equal to the second parameter. For instance, n % 10 will return 3 with values for n 3, 13, 23, 243, 1003 and so on.
+
+#### 6. Compound Interest
+
+* Write a JS function that calculates the total accumulated value for a monetary deposit by given principal sum, interest rate, compounding frequency and overall length.
+
+* The input comes as an array of numbers. The first value is the principal sum, the second is the interest rate in percent, the third is the compounding period in months and the final value is the total timespan, given in years.
+
+* The output should be printed to the console, with two decimal places.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [1500, 4.3, 4, 6] | 1938.84 | 
