@@ -76,3 +76,7 @@
 | -----------|:-------------:|
 | 100 | 90 | 
 | 400 | 0|
+
+#### Hints 
+
+You can use the remainder (modulo) operator to get a value that is cyclic – it returns the same result for all input values with offset equal to the second parameter. For instance, n % 10 will return 3 with values for n 3, 13, 23, 243, 1003 and so on.
