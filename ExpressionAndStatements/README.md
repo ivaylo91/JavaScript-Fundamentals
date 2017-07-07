@@ -154,3 +154,18 @@ You can use the remainder (modulo) operator to get a value that is cyclic – it
 | Input      | Output        |
 | -----------|:-------------:|
 | ['smiley.gif', 'Smiley Face']| <img src="smiley.gif" alt="Smiley Face"> |
+
+
+#### 11. Binary to Decimal
+
+* Write a JS function that reads an 8-bit binary number and converts it to a decimal.
+
+* The input comes as one string element, representing a binary number.
+
+* The output should be printed to the console.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 00001001| 9|
