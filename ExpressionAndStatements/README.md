@@ -115,3 +115,9 @@ You can use the remainder (modulo) operator to get a value that is cyclic – it
 * The input comes as a single number.
 
 * The output should be printed to the console.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| ['23]| 3'-0" | 
