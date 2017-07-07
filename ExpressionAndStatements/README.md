@@ -169,3 +169,25 @@ You can use the remainder (modulo) operator to get a value that is cyclic – it
 | Input      | Output        |
 | -----------|:-------------:|
 | 00001001| 9|
+
+#### 12. Assign Properties
+
+* Write a JS function that composes an object by given properties. There will be 3 sets of property-value pairs (a total of 6 elements). Assign each value to its respective property of an object and return the object as a result of the function.
+
+* The input comes as an array of string elements.
+
+* The output should be returned as a value.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| ['name', 'Pesho', 'age', '23', 'gender', 'male']| |
+
+```javascript
+{
+  name: 'Pesho',
+  age: '23',
+  gender: 'male'
+}
+```
