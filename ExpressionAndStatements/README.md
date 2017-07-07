@@ -147,7 +147,7 @@ You can use the remainder (modulo) operator to get a value that is cyclic – it
 
 * The output should be printed to the console in the following format:
 
-   ```html <img src="{file location}" alt="{alternate text}">```
+   ```<img src="{file location}" alt="{alternate text}">```
 
 #### Examples 
 
