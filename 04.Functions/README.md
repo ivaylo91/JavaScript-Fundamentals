@@ -68,3 +68,24 @@
 | Input      | Output        |
 | -----------|:-------------:|
 | 2,4,'+' | 6 | 
+
+###6. Aggregate Elements
+
+Write a JS program that performs and outputs different operations on an array of elements. Implement the
+following operations:
+
+* Sum(a i ) - calculates the sum all elements from the input array
+
+* Sum(1/a i ) - calculates the sum of the inverse values (1/a i ) of all elements from the array
+
+* Concat(a i ) - concatenates the string representations of all elements from the array
+
+The input comes as an array of number elements.
+
+The output should be printed on the console on a new line for each of the operations.
+
+#### Example
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [1,2,3] | 6<br> 1.8333<br>123 | 
