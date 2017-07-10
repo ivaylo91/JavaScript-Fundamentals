@@ -19,3 +19,19 @@
 
   * The output is a series of lines printed on the console, forming a rectangle of variable size. 
 
+#### 3. Palindrome
+
+* Write a JS function that checks if an input string is a palindrome.
+
+
+* The input comes as a single string argument.
+
+
+* The output is the return value of your function. It should be true if the string is a palindrome and false if it’s not.
+
+#### Example
+
+| Input      | Output        |
+| -----------|:-------------:|
+| haha | false| 
+| racecar | true|
