@@ -104,4 +104,4 @@ words in upper case must be printed back on a single line concatenated by â€œ, â
 
 | Input      | Output        |
 | -----------|:-------------:|
-| [1,2,3] | 6<br> 1.8333<br>123 |
+| &#39;Hi, how are you?&#39; | HI, HOW, ARE, YOU,, |
