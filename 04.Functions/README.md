@@ -89,3 +89,19 @@ The output should be printed on the console on a new line for each of the operat
 | Input      | Output        |
 | -----------|:-------------:|
 | [1,2,3] | 6<br> 1.8333<br>123 | 
+
+
+#### 7. *Words Uppercase
+
+
+* Write a JS program that extracts all words from a passed in string and converts them to upper case. The extracted
+words in upper case must be printed back on a single line concatenated by “, “.
+
+* The input comes as a single string argument - the text from which to extract and convert the words.
+
+
+* The output should be a single line containing the converted string.
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [1,2,3] | 6<br> 1.8333<br>123 |
