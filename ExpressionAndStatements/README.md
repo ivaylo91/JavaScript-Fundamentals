@@ -191,3 +191,31 @@ You can use the remainder (modulo) operator to get a value that is cyclic – it
   gender: 'male'
 }
 ```
+### 13. *Last Month
+
+* Write a JS function that receives a date as array of strings containing day, month and year in that order. Your task is to print the last day of previous month (the month BEFORE the given date). Check the examples to better understand the problem.
+
+* The input comes as an array of numbers.
+
+* The output should be a single number representing the last day of the previous month.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [17,3,2002]|28 |
+
+
+### 14. Biggest of 3 Numbers
+
+* Write a JS function that finds the biggest of 3 numbers.
+
+* The input comes as array of 3 numbers.
+
+* The output is the biggest from the input numbers.
+
+#### Examples 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 5<br>-2<br>7|7 |

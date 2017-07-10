@@ -16,4 +16,6 @@ const getDay = function (input) {
 
 };
 
-console.log(getDay([17, 3, 2002]));
+console.log(getDay([17, 3, 2002])); // 28
+
+
