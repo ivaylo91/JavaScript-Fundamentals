@@ -102,6 +102,27 @@ words in upper case must be printed back on a single line concatenated by â€œ, â
 
 * The output should be a single line containing the converted string.
 
+#### Examples 
+
 | Input      | Output        |
 | -----------|:-------------:|
 | &#39;Hi, how are you?&#39; | HI, HOW, ARE, YOU,, |
+
+
+### 8.Inside Volume
+
+* Write a JS function that determines whether a point is inside the volume, defined by the box,
+  shown on the right.
+
+* The input comes as an array of numbers. Each set of 3 elements are the x, y and z coordinates of a
+point.
+
+* The output should be printed to the console on a new line for each point. Print inside if the point
+ lies inside the volume and outisde otherwise.
+ 
+ #### Examples 
+ 
+ | Input      | Output        |
+ | -----------|:-------------:|
+ | [8,20,22]| inside |
+ | [13.1, 50, 31.5 <br>, 50, 80, 50,<br>-5, 18, 43]| inside<br>inside<br>outside | 
