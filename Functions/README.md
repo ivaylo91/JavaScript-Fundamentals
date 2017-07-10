@@ -3,8 +3,7 @@
 ### 1.Triangle Of Stars
 
   * Write a JS function that outputs a triangle made of stars with variable size, depending on an input parameter. Look
-  
-  * at the examples to get an idea.
+    at the examples to get an idea.
   
   * The input comes as a single number argument.
   
