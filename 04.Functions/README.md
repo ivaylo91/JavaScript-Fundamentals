@@ -213,10 +213,10 @@ of every operation in order. The operations can be one of the following:
 
    * fillet – subtract 20% from number
 
-* The input comes as an array of 6 string elements. The first element is your starting point and must be parsed to a
+The input comes as an array of 6 string elements. The first element is your starting point and must be parsed to a
 number. The remaining 5 elements are the names of operations to be performed.
 
- * The output should be printed on the console.
+The output should be printed on the console.
  
  #### Example
  
