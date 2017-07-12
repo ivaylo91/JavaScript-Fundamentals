@@ -126,3 +126,100 @@ point.
  | -----------|:-------------:|
  | [8,20,22]| inside |
  | [13.1, 50, 31.5 <br>, 50, 80, 50,<br>-5, 18, 43]| inside<br>inside<br>outside | 
+ 
+### 9. Road Radar
+ 
+* Write a JS function that determines whether a driver is within the speed limit. You will receive his speed and the 
+ area where he’s driving. Each area has a different limit: on the motorway the limit is 130 km/h, on the interstate the
+ limit is 90, inside a city the limit is 50 and within a residential area the limit is 20 km/h. If the driver is within the
+  limits, your function prints nothing. If he’s over the limit however, your function prints the severity of the infraction.
+  
+* For speeds up to 20 km/h over the limit, he’s speeding; for speeds up to 40 over the limit, the infraction is excessive
+  speeding and for anything else, reckless driving.  
+ 
+ * The input comes as an array of elements. The first element is the current speed (as number), the second element is
+   the area where the vehicle is driving.
+   
+ * The output should be printed to the console. Note in certain cases there will be no output. 
+ 
+ #### Example 
+ 
+ | Input      | Output        |
+  | -----------|:-------------:|
+  | [21, residential]| speeding|
+  
+ #### 10. Template Format
+  
+  * Write a JS program that receives data about a quiz and prints it formatted as an XML document. The data comes as
+  pairs of question-answer entries. The format of the document should be as follows:
+  
+  ```xml
+<?xml version="1.0" encoding="UTF-8"?>
+      
+      <quiz>
+      
+      <question>
+      
+      {question text}
+      
+      </question>
+      
+      <answer>
+      
+      {answer text}
+      
+      </answer>
+      
+      </quiz>
+  ```
+* The input comes as an array of string elements.
+
+* The output should be printed on the console.  
+
+#### Example
+
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+   
+   <quiz>
+         
+         <question>
+         
+         Who was the forty-second president of the U.S.A.?
+         
+         </question>
+         
+         <answer>
+         
+         William Jefferson Clinton
+         
+         </answer>
+         
+         </quiz>
+```
+### 11. Cooking Numbers 
+
+Write a JS program that receives a number and a list of five operations. Perform the operations in sequence by
+starting with the input number and using the result of every operation as starting point for the next. Print the result
+of every operation in order. The operations can be one of the following:
+
+   * chop – divide the number by two
+
+   * dice – square root of number
+
+   * spice – add 1 to number
+
+   * bake – multiply number by 3
+
+   * fillet – subtract 20% from number
+
+* The input comes as an array of 6 string elements. The first element is your starting point and must be parsed to a
+number. The remaining 5 elements are the names of operations to be performed.
+
+ * The output should be printed on the console.
+ 
+ #### Example
+ 
+  | Input      | Output        |
+  | -----------|:-------------:|
+  | [32, chop, chop, chop, chop, chop]| 16<br>8<br>4<br>2<br>1|
