@@ -29,3 +29,4 @@ const template = function (input) {
     return xml;
 };
 console.log(template(['What now?', 'I have no idea.', 'So how are you?', 'I am doing fine']));
+console.log(template(["Dry ice is a frozen form of which gas?", "Carbon Dioxide&quot", "What is the brightest star in the night sky?", "Sirius"]));
