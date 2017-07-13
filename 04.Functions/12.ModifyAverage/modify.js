@@ -3,32 +3,25 @@
  */
 
 const modifyAverage = function (input) {
+    let numAsStr = input.toString();
+    let sum = sumDigits(numAsStr);
 
-    let number = input.toString();
-    let sum = 0;
-    let avg = 0;
-    let numberOfDigit = input.length;
+    while (sum / numAsStr.length <= 5) {
+        numAsStr += '9';
 
-    function sumDigits(number) {
-        for (let i = 0; i < number.length; i++) {
-            sum += Number(number[i]);
-        }
-        avg = sum / numberOfDigit;
-
-        checkAverage(avg);
+        sum = sumDigits(numAsStr);
     }
+    console.log(numAsStr);
 
-    function checkAverage() {
-        if (avg <= 5) {
-            number += '9';
-            numberOfDigit++;
-            sum = 0;
-            sumDigits(number);
-        } else {
-            console.log(number);
+    function sumDigits(numAsStr) {
+        "use strict";
+
+        let sum = 0;
+
+        for (let digit of numAsStr) {
+            sum += Number(digit);
         }
+        return sum;
     }
-
-    sumDigits(number);
 };
-modifyAverage(['555']);
+modifyAverage(['101']);

@@ -240,5 +240,26 @@ The output should be printed on the console.
   
    | Input      | Output        |
    | -----------|:-------------:|
-   | [101]| 1019| 
+   | [101]| 1019999| 
    | [5835]|5835|    
+   
+### 13. Validity Checker 
+  
+  Write a JS program that receives two points in the format <b>[x1, y1, x2, y2]</b> and checks if the distances between each
+  point and the start of the cartesian coordinate system <b>(0, 0)</b> and between the points themselves is valid. A distance
+  between two points is considered valid, if it is an integer value. In case a distance is valid write &quot;{x1, y1} to {x2, y2}
+   is valid;, in case the distance is invalid write <b>{x1, y1}</b> to <b>{x2, y2}</b> is invalid&quot;.
+  
+  The order of comparisons should always be first <b>{x1, y1}</b> to <b>{0, 0}</b>, then <b>{x2, y2}</b> to <b>{0, 0}</b> and finally <b>{x1, y1}</b> to <b>{x2,
+    y2}</b>.
+  
+  The input consists of two points given as an array of numbers.
+  
+  For each comparison print on the output either <b>{x1, y1}</b> to <b>{x2, y2}</b> is valid if the distance between them is valid,
+    or <b>{x1, y1}</b> to <b>{x2, y2}</b> is invalid- if it’s invalid.
+    
+#### Example
+ 
+ | Input      | Output        |
+    | -----------|:-------------:|
+    | [3,0,0,4]| {3,0} to {0,0} is valid <br> {0,4} to {0,0} is valid <br> {3,0} to {0,4} is valid| 
