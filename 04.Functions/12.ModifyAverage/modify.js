@@ -24,4 +24,5 @@ const modifyAverage = function (input) {
         return sum;
     }
 };
-modifyAverage(['101']);
+modifyAverage(['101']); // 1019999
+modifyAverage(['5835']); // 5835
