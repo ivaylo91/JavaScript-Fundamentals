@@ -281,6 +281,6 @@ The output should be printed on the console.
   #### Example
   
    | Input      | Output        |
-     | -----------|:-------------:|
-     | [4, 2, 1.5, 6.5, 1, 3]| On the bottom of the ocean <br>Tonga<br>Tuvalu| 
-     | [6, 4]|Samoa| 
+   | -----------|:-------------:|
+   | [4, 2, 1.5, 6.5, 1, 3]| On the bottom of the ocean <br>Tonga<br>Tuvalu| 
+   | [6, 4]|Samoa| 
