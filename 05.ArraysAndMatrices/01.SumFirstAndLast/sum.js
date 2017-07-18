@@ -8,7 +8,7 @@ const sum = function (input) {
 
     let length = input.length;
 
-    for (let i = 1; i < length - 1; i++) {
+    for (let i = 1; i < length; i++) {
 
         let lastElement = Number(input[length - i]);
 
@@ -17,3 +17,4 @@ const sum = function (input) {
 };
 
 console.log(sum(['10', '20', '30'])); // 40
+console.log(sum(['10', '15'])); // 25
