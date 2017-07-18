@@ -14,3 +14,18 @@
 | -----------|:-------------:|
 | [10,20,30] | 40| 
 | [10,15] | 25|
+
+#### 2.Even Position Element
+
+* Write a JS function that finds the elements at even positions in an array.
+
+* The input comes as array of string elements.
+
+* The output is the return value of your function. Collect all elements in a string, separated by space.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| ['20', '30', '40'] | 20 40 | 
+| ['5,'10'] | 5|
