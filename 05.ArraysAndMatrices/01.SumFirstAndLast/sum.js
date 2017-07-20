@@ -2,19 +2,11 @@
  * @author Ivaylo Penev
  */
 
-const sum = function (input) {
+function sumFirstLast(input) {
 
-    let firstElement = Number(input[0]);
+    "use strict";
 
-    let length = input.length;
+    return Number(input[0]) + Number(input[input.length - 1]);
+}
 
-    for (let i = 1; i < length; i++) {
-
-        let lastElement = Number(input[length - i]);
-
-        return firstElement + lastElement;
-    }
-};
-
-console.log(sum(['10', '20', '30'])); // 40
-console.log(sum(['10', '15'])); // 25
+console.log(sumFirstLast(['1', '2', '3', '4'])); // 5
