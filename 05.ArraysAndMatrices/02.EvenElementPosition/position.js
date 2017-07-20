@@ -6,17 +6,9 @@
 function getElement(input) {
     "use strict";
 
-    let line = '';
+    console.log(input.filter((e, i) => i % 2 === 0).join(' '));
 
-    for (let i = 0; i < input.length; i++) {
-
-        if (i % 2 === 0) {
-
-            line += input[i] + ' ';
-        }
-    }
-    return line;
 }
 
-console.log(getElement(['20', '30', '40'])); // 20 40
-console.log(getElement(['5', '10'])); // 5
+getElement(['20', '30', '40']); // 20 40
+getElement(['5', '10']); // 5
