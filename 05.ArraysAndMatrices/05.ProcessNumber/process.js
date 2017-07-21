@@ -3,13 +3,14 @@
  */
 
 const getNumbers = function (input) {
+
     let result = [];
 
     for (let i = 0; i < input.length; i++) {
 
         if (i % 2 !== 0) {
 
-            result.push(input[i] + input[i]);
+            result.push(Number(input[i]) * 2);
             result.reverse();
         }
     }
