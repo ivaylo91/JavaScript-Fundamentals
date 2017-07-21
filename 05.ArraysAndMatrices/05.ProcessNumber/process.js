@@ -16,7 +16,7 @@ const getNumbers = function (input) {
         }
         return result.join(' ');*/
 
-    let result = input.filter(e => e % 2 !== 0)
+    let result = input.filter((e, i) => i % 2 !== 0)
         .map(e => e * 2)
         .reverse()
         .join(' ');
@@ -24,4 +24,5 @@ const getNumbers = function (input) {
     return result;
 };
 
-console.log(getNumbers([10, 15, 20, 25]));
+console.log(getNumbers([10, 15, 20, 25])); // 50 30
+console.log(getNumbers([3, 0, 10, 4, 7, 3]));  // 6 8 0

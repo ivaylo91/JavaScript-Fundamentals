@@ -61,3 +61,19 @@ the second line print the last k elements, separated by space.
 | Input      | Output        |
 | -----------|:-------------:|
 | [<b>2</b>, 7, 8, 9] | 7 8 <br>8 9 |
+
+#### 5. Process Odd Numbers 
+
+* You are given an array of numbers. Write a JS function that prints the elements at odd positions from the array,
+doubled and in reverse order.
+
+* The <b>input</b> comes as array of number elements.
+
+* The <b>output</b> is printed on the console on a single line, separated by space.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [10, 15, 20, 25] | 50 30 |
+| [3, 0, 10, 4, 7, 3] | 6 8 0 |
