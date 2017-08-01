@@ -77,3 +77,17 @@ doubled and in reverse order.
 | -----------|:-------------:|
 | [10, 15, 20, 25] | 50 30 |
 | [3, 0, 10, 4, 7, 3] | 6 8 0 |
+
+#### 6. Smallest Two Numbers
+
+* Write a JS function that prints the two smallest elements from an array of numbers.
+
+* The <b>input</b> comes as array of number elements.
+
+* The <b>output</b> is printed on the console on a single line, separated by space.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [30, 15, 50, 5] | 15 5 |    
