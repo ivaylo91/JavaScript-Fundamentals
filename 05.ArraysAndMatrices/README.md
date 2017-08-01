@@ -91,3 +91,17 @@ doubled and in reverse order.
 | Input      | Output        |
 | -----------|:-------------:|
 | [30, 15, 50, 5] | 15 5 |    
+
+#### 8. Biggest Element
+
+* Write a JS function that finds the biggest element inside a matrix.
+
+* The <b>input</b> comes as array of arrays, containing number elements (2D matrix of numbers).
+
+* The <b>output</b> is the return value of your function. Find the biggest element and return it.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [[20, 50, 10],<br>[8, 33, 145]] | 145 |   
