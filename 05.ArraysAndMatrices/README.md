@@ -92,7 +92,7 @@ doubled and in reverse order.
 | -----------|:-------------:|
 | [30, 15, 50, 5] | 15 5 |    
 
-#### 8. Biggest Element
+#### 7. Biggest Element
 
 * Write a JS function that finds the biggest element inside a matrix.
 
@@ -105,3 +105,19 @@ doubled and in reverse order.
 | Input      | Output        |
 | -----------|:-------------:|
 | [[20, 50, 10],<br>[8, 33, 145]] | 145 |   
+
+#### 8.Diagonal Sums
+
+* A square matrix of numbers comes as an array of strings, each string holding numbers (space separated). Write a JS
+function that finds the sum at the main and at the secondary diagonals.
+
+* The <b>input</b> comes as array of arrays, containing number elements (2D matrix of numbers).
+
+* The <b>output</b> is printed on the console, on a single line separated by space. First print the sum at the main diagonal,
+then the sum at the secondary diagonal.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| [[20, 40]<br>,[10, 60]] | 80 50 |
