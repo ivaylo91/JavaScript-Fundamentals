@@ -121,3 +121,34 @@ then the sum at the secondary diagonal.
 | Input      | Output        |
 | -----------|:-------------:|
 | [[20, 40]<br>,[10, 60]] | 80 50 |
+
+#### 9.Print an Array with a given Delimiter
+
+* Write a JS function that prints a given array.
+
+* The <b>input</b> comes as array of strings. The last element of the array is the delimiter.
+
+* The <b>output</b> is the same array, printed on the console, each element separated from the others by the given
+delimiter.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| One<br>Two<br>Three<br>Four<br>Five<br> - | One-Two-Three-Four-Five|
+
+#### 10. Print every N-th Element from an Array
+
+* Write a JS function that prints every element of an array, on a given step.
+
+* The input comes as array of strings. The last element is N - the step.
+
+* The output is every element on the N-th step starting from the first one. If the step is “3”, you need to print the 1-
+st, the 4-th, the 7-th … and so on, until you reach the end of the array. The elements must be printed each on a new
+line.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 5<br>20<br>31<br>4<br>20<br>2 | 5<br>31<br>20|
