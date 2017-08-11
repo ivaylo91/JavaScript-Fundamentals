@@ -152,3 +152,34 @@ line.
 | Input      | Output        |
 | -----------|:-------------:|
 | 5<br>20<br>31<br>4<br>20<br>2 | 5<br>31<br>20|
+
+#### 11. *Add and Remove Elements from Array
+* Write a JS function that adds and removes numbers to / from an array. You will receive a command which can
+  either be “add” or “remove”.
+* The initial number is 1. Each input command should increase that number, regardless of what it is.
+
+* Upon receiving an “add” command you should add the current number to your array.
+        
+* Upon receiving the “remove” command you should remove the last entered number, currently existent in the array.
+       
+* The input comes as array of strings. Each element holds a command.
+       
+* The output is the array itself, with each element printed on a new line. In case of an empty array, just print “Empty”.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| add<br>add<br>remove<br>add<br>add| 1<br>4<br>5|
+#### 12. Rotate Array
+* Write a JS function that rotates an array. The array should be rotated to the right side, meaning that the last
+element should become the first, upon rotation.
+* The input comes as array of strings. The last element of the array is the amount of rotation you need to perform.
+* The output is the resulted array after the rotations. The elements should be printed on one line, separated by a
+single space.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| 1<br>2<br>3<br>4<br>2| 3<br>4<br>1<br>2|
