@@ -1,5 +1,5 @@
 const sortArray = function (arr) {
-    console.log(arr.sort(compare).join("\n"));
+    return arr.sort(compare).join("\n");
 
     function compare(a, b) {
         if (a.length < b.length) {
@@ -17,5 +17,5 @@ const sortArray = function (arr) {
         }
     }
 };
-sortArray(['alpha', 'beta', 'gamma']); // beta alpha gamma
-sortArray(['test', 'Deny', 'omen', 'Default']); // Deny omen test Default
+console.log(sortArray(['alpha', 'beta', 'gamma'])); // beta alpha gamma
+console.log(sortArray(['test', 'Deny', 'omen', 'Default'])); // Deny omen test Default
