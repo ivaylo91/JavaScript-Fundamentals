@@ -22,7 +22,7 @@ const addRemoveElements = function (input) {
                 console.log(resultArr[i]);
             }
         } else {
-            console.log('Empty Array');
+            console.log('Empty');
         }
     }
 ;
