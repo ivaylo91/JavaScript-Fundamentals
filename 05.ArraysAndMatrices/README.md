@@ -183,3 +183,16 @@ single space.
 | Input      | Output        |
 | -----------|:-------------:|
 | 1<br>2<br>3<br>4<br>2| 3<br>4<br>1<br>2|
+
+#### 13. Sort Array By 2 Criteria
+
+* Write a JS function that orders a given array of strings, by length in ascending order as primary criteria, and by
+alphabetical value in ascending order as second criteria. The comparison should be case-insensitive.
+* The input comes as array of strings.
+* The output is the ordered array of strings.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| alpha<br>beta<br>gamma| beta<br>alpha<br>gamma|
