@@ -28,3 +28,19 @@ string, going to the first. Reverse each individual string’s letters.
 | Input      | Output        |
 | -----------|:-------------:|
 | [&#39;I&#39;, &#39;am&#39;, &#39;student&#39;]| tnedutsmaI|
+
+### 3. Count Occurrences
+
+* Write a JS function that counts how many times a string occurs in a given text. Overlapping strings are allowed.
+
+* The <b>input</b> comes as two string arguments. The first element is the target string and the second element is the text in
+which to search for occurrences.
+
+* The <b>output</b> should be a number, printed on the console.
+
+#### Example
+
+| Input      | Output        |
+| -----------|:-------------:|
+| &#39;the&#39;, &#39;The quick brown fox jumps over the lay dog.&#39;| 1|
+|&#39;ma&#39;, &#39;Marine mammal training is the training and caring for marine life<br> such as, dolphins, killer whales, sea lions, walruses, and other marine<br>mammals. It is also a duty of the trainer to do mental and physical<br>exercises to keep the animal healthy and happy.&#39;|7|
