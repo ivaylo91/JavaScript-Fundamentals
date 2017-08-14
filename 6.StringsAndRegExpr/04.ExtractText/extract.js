@@ -10,4 +10,4 @@ const extractText = function (text) {
     }
     return result.toString();
 };
-console.log(extractText('Rakiya (Bulgarian brandy) is self-made liquor (alcoholic drink)'));
+console.log(extractText('Rakiya (Bulgarian brandy) is self-made liquor (alcoholic drink)')); // Bulgarian brandy,alcoholic drink
