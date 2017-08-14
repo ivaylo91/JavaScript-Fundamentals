@@ -44,3 +44,18 @@ which to search for occurrences.
 | -----------|:-------------:|
 | &#39;the&#39;, &#39;The quick brown fox jumps over the lay dog.&#39;| 1|
 |&#39;ma&#39;, &#39;Marine mammal training is the training and caring for marine life<br> such as, dolphins, killer whales, sea lions, walruses, and other marine<br>mammals. It is also a duty of the trainer to do mental and physical<br>exercises to keep the animal healthy and happy.&#39;|7|
+
+#### 4. Extract Text 
+
+* You will be given a text as a string. Write a JS function that extracts and prints only the text that’s surrounded by
+parentheses.
+
+* The input comes as a single string argument.
+
+* The output is printed on the console on a single line, in the form of a comma-separated list.
+
+#### Example 
+
+| Input      | Output        |
+| -----------|:-------------:|
+| &#39;Rakiya (<b>Bulgarian brandy</b>) is self-made liquor (<b>alcoholic drink</b>)&#39;| Bulgarian brandy, alcoholic drink|
