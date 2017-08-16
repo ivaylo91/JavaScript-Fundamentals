@@ -87,6 +87,21 @@ the second, the sum of all incomes.
    | -----------|:-------------:|
    | [&#39;Beer Zagorka&#39;, &#39;2.65&#39;, &#39;Tripe soup&#39;, &#39;7.80&#39;,&#39;Lasagna&#39;, &#39;5.69&#39;]| You purchased Beer Zagorka, Tripe soup, Lasagna for a total sum of 16.14|
    
+#### 7. Usernames
+* Write a JS function that parses a list of emails and returns a list of usernames, generated from them. Each username
+is composed from the name of the email address, a period and the first letter of every element in the domain name.
+See the examples for more information.
+
+* The input comes as array of string elements. Each element is an email address.
+
+* The output is printed on the console on a single line as a comma-formatted list.
+
+#### Example
+
+ | Input      | Output        |
+   | -----------|:-------------:|
+   | [&#39;peshoo@gmail.com&#39;, &#39;todor_43@mail.dir.bg&#39;, &#39;foo@bar.com&#39;]| peshoo.gc, todor_43.mdb, foo.bc|
+   
 
 
 
