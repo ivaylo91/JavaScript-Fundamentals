@@ -1,4 +1,4 @@
-const extrctUsernames = function (arr) {
+const extractUsernames = function (arr) {
 
     let users = arr.map(s => s.split('@'));
     let result = [];
@@ -14,4 +14,4 @@ const extrctUsernames = function (arr) {
     return result.toString();
 };
 
-console.log(extrctUsernames(['peshoo@gmail.com', 'todor_43@mail.dir.bg', 'foo@bar.com']));
+console.log(extractUsernames(['peshoo@gmail.com', 'todor_43@mail.dir.bg', 'foo@bar.com']));
