@@ -14,4 +14,4 @@ const extractUsernames = function (arr) {
     return result.toString();
 };
 
-console.log(extractUsernames(['peshoo@gmail.com', 'todor_43@mail.dir.bg', 'foo@bar.com']));
+console.log(extractUsernames(['peshoo@gmail.com', 'todor_43@mail.dPir.bg', 'foo@bar.com']));
