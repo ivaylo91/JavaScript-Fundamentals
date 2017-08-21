@@ -120,3 +120,57 @@ array contains the strings to be censored.
    | -----------|:-------------:|
    | &#39;roses are red, violets are blue&#39;, [&#39;, violets are&#39;, &#39;red&#39;]|roses are -- -- -- -- -- -- -- -- blue|
    
+#### 9. Escaping 
+* You will be given a list of strings, containing user-submitted data. Write a JS function that prints an HTML list from
+the data. The strings, however, may contain special HTML characters, which is an oft-used method for injection
+attacks. To prevent unwanted behavior or harmful content, all special characters need to be replaced with their
+encoded counterparts – they will look the same to the user, but will not pose a security risk. Use the following table
+to compose your function:
+
+| Raw     |Encoded        |
+| -----------|:-------------:|
+| < | &lt|
+| > | &gt|
+| & | &amp   |
+| ""| &quot  |
+
+* Use the provided HTML template to visually test your code – if you don’t escape the control characters, formatted
+HTML will show up. Don’t care how the HTML template works. Your job is to write the JS escaping function only.
+
+* The input comes as array of string elements.
+
+* The output is the return value of your function. Compose the list in a string and return it. See the examples for
+  formatting details.
+  
+```html
+  <!DOCTYPE html>;
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <title>Escaping</title>
+  </head>
+  <body>
+  <div><label for="userInput">Paste test input here:</label></div>
+  <div>
+  <textarea rows="12" cols="40" id="userInput"</textarea>
+  <input type="button" value="Escape"
+  onclick="document.getElementById("result").innerHTML =
+  htmlEscape(JSON.parse(document.getElementById("userInput").value.replace(/'/g,
+  String.fromCharCode(34))));"
+  </div>
+  <div><label for="result">Results will show up here:</label></div>;
+  <div id="result"></div>;
+  <script>;
+  function htmlEscape(input) {
+  // TODO
+  }
+  </script>;
+  </body>
+  </html>
+```  
+#### Example
+
+| Input   | Output        |
+| -----------|:-------------:|
+| [&#39;&lt;b&gt;unescaped text&lt;/b&gt;&#39;, &#39;normal text&#39;]|&lt;ul&gt;<br>&lt;li&gt;&amp;lt;b&amp;gt;unescaped text&amp;lt;/b&amp;gt;&lt;/li&gt;<br>&lt;li&gt;normal text&lt;/li&gt;<br> &lt;/ul&gt;|
+                                    
