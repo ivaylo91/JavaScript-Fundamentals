@@ -25,3 +25,31 @@ the table.
     [{"Town"":""Sofia","Latitude":42.69,"Longitude&quot":23.32},
     {"Town":"Beijing","Latitude":39.91,"Longitude":116.36}]
 ```
+
+#### 2. Score To HTML 
+
+* You are given a JSON string representing an array of objects, parse the JSON and create a table using the supplied
+objects. The table should have 2 columns &quot;name&quot; and &quot;score&quot;, each object in the array will also have these keys.
+Any text elements must also be escaped in order to ensure no dangerous code can be passed.
+You can either write the HTML escape function yourself or use the one from the Strings and Regular Expressions Lab.
+
+* The input comes as a single string argument – the array of objects as a JSON.
+
+* The output should be printed on the console – a table with 2 columns - &quot;name&quot; and &quot;score&quot;, containing the values
+from the objects as rows.
+
+#### Examples
+
+##### Input
+
+```javascript
+    [{"name":"Pesho","score":479},{"name":"Gosho","score":205}]
+``` 
+
+```html
+   <table>
+   <tr><th>name</th><th>score</th></tr>
+   <tr><td>Pesho</td><td>479</td></tr>
+   <tr><td>Gosho</td><td>205</td></tr>
+   </table>
+```
