@@ -46,6 +46,7 @@ from the objects as rows.
     [{"name":"Pesho","score":479},{"name":"Gosho","score":205}]
 ``` 
 
+##### Output
 ```html
    <table>
    <tr><th>name</th><th>score</th></tr>
