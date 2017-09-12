@@ -1,16 +1,16 @@
 function scoreToHtml(json) {
 
-    let html = '<table>';
+    let html = '<table>\n';
     html += '<tr><th>name</th><th>score</th></tr>';
     let scores = JSON.parse(json);
 
     for (let score of  scores) {
-        html += '<tr>\n';
+        html += '<tr>';
 
         html += `<td>${score.name}</td>`;
         html += `<td>${score.score}</td>`;
 
-        html += '</tr>';
+        html += '</tr>\n';
     }
     html += '</table>';
 
