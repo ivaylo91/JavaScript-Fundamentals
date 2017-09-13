@@ -72,7 +72,7 @@ incomes.
 
 | Input      | Output        |
 | -----------|:-------------:|
-| Sofia <br> 20 <br> Varna <br> 3 <br> Sofia<br> 5<br> Varna<br> 4|{"Sofia": 25, "Varna":7 |
+| Sofia <br> 20 <br> Varna <br> 3 <br> Sofia<br> 5<br> Varna<br> 4|{"Sofia": 25, "Varna":7} |
 
 #### 4. Word Count
 
