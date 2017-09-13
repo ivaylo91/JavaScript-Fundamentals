@@ -54,3 +54,39 @@ from the objects as rows.
    <tr><td>Gosho</td><td>205</td></tr>
    </table>
 ```
+
+#### 3. Sum By Town 
+
+* You’re tasked with calculating the total sum of income for a number of Towns. You will receive an array of strings
+representing towns and their incomes, every even index will be a town and every odd index will be an income
+belonging to that town. Create an object that will hold all the towns as keys and their total income (the sum of their
+incomes) as values to those keys and print it as a JSON.
+
+* The input comes as an array of strings - each even index is the name of a town and each odd index is an income
+belonging to that town.
+
+* The output should be printed on the console - JSON representation of the object containing all towns and their total
+incomes.
+
+#### Example
+
+| Input      | Output        |
+| -----------|:-------------:|
+| Sofia <br> 20 <br> Varna <br> 3 <br> Sofia<br> 5<br> Varna<br> 4|{"Sofia": 25, "Varna":7 |
+
+#### 4. Word Count
+
+* You are tasked to count the number of words in a text using an object as an associative array, any combination of
+letters, digits and _ (underscore) should be counted as a word. The words should be stored in the object as
+properties - the key being the word and the value being the amount of times the word is contained in the text.
+
+* The input comes as an array of strings containing one entry - the text whose words should be counted. The text may
+consist of more than one sentence.
+
+* The output should be printed on the console - the JSON representation of the object containing the words.
+
+#### Example
+
+| Input      | Output        |
+| -----------|:-------------:|
+|Far too slow, you&#39;re far too slow.|{"Far": 1, "too":2, "slow": 2,"you": 1,'re':1,"far":1} |
